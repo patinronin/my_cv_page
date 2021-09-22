@@ -27,8 +27,8 @@ color: #12F55A !important;
 
 
 .container-fluid{
-       width: calc(40%);
-       height: calc(40%);
+       width: calc(60%);
+       height: calc(60%);
        margin-top: 10px;
        margin-bottom: 10px;
 }
