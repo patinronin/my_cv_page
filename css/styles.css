@@ -9,6 +9,8 @@ body{
 
 h1 ,h2,h3,h4,h5, p, div{
   color: #12F55A ;
+  text-align: center;
+  
 }
 
 
@@ -24,11 +26,15 @@ color: #12F55A !important;
 color: #12F55A !important;
 }
 
+.navbar-nav li{
+       display: inline-block;
+   }
+
 
 
 .container-fluid{
-       width: calc(60%);
-       height: calc(60%);
+       width: calc(40%);
+       height: calc(40%);
        margin-top: 10px;
        margin-bottom: 10px;
 }
@@ -43,6 +49,13 @@ color: #12F55A !important;
        margin-bottom: 10px;
 
 }
+
+.center {
+       display: block;
+       margin-left: auto;
+       margin-right: auto;
+       width: 100%;
+     }
 
 #github-icon{
        width: 80px;
@@ -69,6 +82,9 @@ color: #12F55A !important;
        height: 100px; 
    
 }
+
+
+
 
 #conteiner-carousel{
        float left: ;
