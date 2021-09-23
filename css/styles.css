@@ -33,8 +33,8 @@ color: #12F55A !important;
 
 
 .container-fluid{
-       width: calc(40%);
-       height: calc(40%);
+       width: calc(80%);
+       height: calc(80%);
        margin-top: 10px;
        margin-bottom: 10px;
 }
@@ -43,8 +43,8 @@ color: #12F55A !important;
 
 #top-gif{
       
-       width: calc(40%);
-       height: calc(40%);
+       width: calc(80%);
+       height: calc(80%);
        margin-top: 10px;
        margin-bottom: 10px;
 
@@ -57,14 +57,14 @@ color: #12F55A !important;
        width: 100%;
      }
 
+ 
 #github-icon{
        width: 80px;
        height: 80px;
        color: #12F55A;
        margin-top: 5px  ;
        margin-bottom: 5px ;
-       margin-left:5px ;
-       margin-right: 5px ;
+       
 }
 
 #linkedin-icon{
@@ -73,23 +73,23 @@ color: #12F55A !important;
        color: #12F55A;
         margin-top: 5px  ;
        margin-bottom: 5px ;
-       margin-left:5px ;
-       margin-right: 5px ;
+      
 }
 
-.list-inline-item{
-      width: 100px;
-       height: 100px; 
+.list-inline{
+       width: calc(80%);
+       height: calc(80%); 
    
 }
 
 
 
 
+
 #conteiner-carousel{
        float left: ;
-       width: calc(40%);
-       height: calc(40%);
+       width: calc(80%);
+       height: calc(80%);
        margin-top: 50px;
        margin-bottom: 50px;
 }
