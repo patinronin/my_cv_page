@@ -73,16 +73,17 @@ color: #12F55A !important;
 
 
 #conteiner-carousel{
-       width: calc(80%);
-       height: calc(80%);
+       align: center;
+       width: calc(50%);
+       height: calc(50%);
        margin-top: 50px;
        margin-bottom: 50px;
 }
 
 
 .icons-images{
-       width: calc(20%);
-       height: calc(20%);
+       width: calc(10%);
+       height: calc(10%);
        color: #344feb;
         margin-top: 5px  ;
        margin-bottom: 5px ;
@@ -96,4 +97,26 @@ color: #12F55A !important;
        margin-bottom: 5px ;
        margin-right: 5px;
       margin-left: 5px;
+}
+
+aside{
+    float:right;
+    background-color: #202121;
+    color: white;
+    overflow: hidden;
+    padding: 1%;
+    height: auto;
+}
+
+
+
+
+
+.section_container{
+       float: center
+       width: calc(50%);
+       height: calc(50%);
+       margin: auto;
+       margin-top: 10px;
+       margin-bottom: 10px;
 }
