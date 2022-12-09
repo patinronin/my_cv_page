@@ -72,17 +72,6 @@ color: #12F55A !important;
 }
 
 
-
-.list-inline{
-       width: calc(80%);
-       height: calc(80%); 
-   
-}
-
-
-
-
-
 #conteiner-carousel{
        width: calc(80%);
        height: calc(80%);
@@ -92,8 +81,8 @@ color: #12F55A !important;
 
 
 .icons-images{
-       width: 80px;
-       height: 80px;
+       width: calc(20%);
+       height: calc(20%);
        color: #344feb;
         margin-top: 5px  ;
        margin-bottom: 5px ;
