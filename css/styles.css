@@ -61,8 +61,8 @@ color: #12F55A !important;
 
  
 #github-icon{
-       width: 80px;
-       height: 80px;
+       width: 200px;
+       height: 200px;
        color: #344feb;
        margin-top: 5px  ;
        margin-bottom: 5px ;
@@ -71,15 +71,7 @@ color: #12F55A !important;
        
 }
 
-#linkedin-icon{
-       width: 80px;
-       height: 80px;
-       color: #344feb;
-        margin-top: 5px  ;
-       margin-bottom: 5px ;
-       margin-right: 5px;
-      margin-left: 5px;
-}
+
 
 .list-inline{
        width: calc(80%);
@@ -99,3 +91,20 @@ color: #12F55A !important;
 }
 
 
+.icons-images{
+       width: 80px;
+       height: 80px;
+       color: #344feb;
+        margin-top: 5px  ;
+       margin-bottom: 5px ;
+       margin-right: 5px;
+      margin-left: 5px;
+}
+.icons-images-social{
+       width: 200px;
+       height: 200px;
+        margin-top: 5px  ;
+       margin-bottom: 5px ;
+       margin-right: 5px;
+      margin-left: 5px;
+}
