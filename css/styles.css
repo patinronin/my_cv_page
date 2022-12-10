@@ -99,9 +99,22 @@ color: #12F55A !important;
       margin-left: 5px;
 }
 
+
+/*
 aside{
     float:right;
     background-color: #202121;
+    color: white;
+    overflow: hidden;
+    padding: 1%;
+    height: auto;
+    width: auto;
+}
+
+*/
+aside{
+    float:right;
+    background-color: black;
     color: white;
     overflow: hidden;
     padding: 1%;
