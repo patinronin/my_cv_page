@@ -125,7 +125,13 @@ aside{
     background-color: black;
 }
 
-
+@media (max-width: 600px) {
+  aside {
+    /* Styles for small screens */
+    float: none;
+    width: 100%;
+  }
+}
 
 
 
