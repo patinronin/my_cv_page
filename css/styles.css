@@ -1,10 +1,12 @@
 
  html {
   scroll-behavior: smooth;
+  height:100%;
 }
 
 body{
-       background-color: black;
+    background-color: black;
+    height:100%;
 }
 
 h1 ,h2,h3,h4,h5, p, div{
@@ -61,8 +63,8 @@ color: #12F55A !important;
 
  
 #github-icon{
-       width: 200px;
-       height: 200px;
+       width: 25%;
+       height: 25%;
        color: #344feb;
        margin-top: 5px  ;
        margin-bottom: 5px ;
@@ -73,17 +75,18 @@ color: #12F55A !important;
 
 
 #conteiner-carousel{
-       align: center;
-       width: calc(50%);
-       height: calc(50%);
-       margin-top: 50px;
-       margin-bottom: 50px;
+       float: center;
+       width: calc(40%);
+       height: calc(40%);
+       margin-top: 30px;
+       margin-bottom: 30px;
+       object-fit: contain;
 }
 
 
 .icons-images{
-       width: calc(10%);
-       height: calc(10%);
+       width: calc(30%);
+       height: calc(30%);
        color: #344feb;
         margin-top: 5px  ;
        margin-bottom: 5px ;
@@ -91,8 +94,8 @@ color: #12F55A !important;
       margin-left: 5px;
 }
 .icons-images-social{
-       width: 200px;
-       height: 200px;
+       width: 50%;
+       height: 15%;
         margin-top: 5px  ;
        margin-bottom: 5px ;
        margin-right: 5px;
@@ -114,12 +117,12 @@ aside{
 */
 aside{
     float:right;
-    background-color: black;
     color: white;
     overflow: hidden;
     padding: 1%;
-    height: auto;
-    width: auto;
+    height: 100%;
+    width: 30%;
+    background-color: black;
 }
 
 
@@ -128,9 +131,29 @@ aside{
 
 .section_container{
        float: center
-       width: calc(50%);
-       height: calc(50%);
+       width: calc(40%);
+       height: calc(40%);
        margin: auto;
        margin-top: 10px;
        margin-bottom: 10px;
+       background-color: black;;
 }
+
+
+
+.contact_image{
+       float: center
+       max_width: 10%;
+       height: 10%;
+       margin: auto;
+       margin-top: 10px;
+       margin-bottom: 10px;
+       background-color: black;
+}
+.profile_img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+
+  }
+
